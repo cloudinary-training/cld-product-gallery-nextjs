@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  product gallery */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cld-product-images {
+  display: block;
+  width: 54.16667%;
+  float: left;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  margin-bottom: 1rem;
+}
+.cld-product-text {
+  font-size: 16px;
+  clear: right;
+  float: right;
+  width: 45.833333%;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 1.5rem;
+}
+
+.pg-gallery {
+  width: 100%;
+  margin: auto;
+}
+
+.product-info {
+  display: flex;
+}
+
+@media screen and (min-width: 728px) {
+  .grid-container {
+    /* display: grid;
+  grid-template-columns: 1fr .5fr;
+  grid-gap: 20px; */
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    /* grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); */
+    grid-gap: 1rem;
+  }
+}
