@@ -38,13 +38,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
                 </title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
-              {/* <PostHeader
-                title={post.title}
-                coverImage={post.coverImage}
-                date={post.date}
-                author={post.author}
-              /> */}
-              <PostBody content={post.content} />
+              <PostBody title={post.title} cloudName={post.cloudinary.cloudName} media={post.cloudinary.mediaAssets} video={post.cloudinary.videoProps} content={post.content} />
             </article>
           </>
         )}
@@ -68,6 +62,7 @@ export async function getStaticProps({ params }: Params) {
     'slug',
     'author',
     'content',
+    'cloudinary',
     'ogImage',
     'coverImage',
   ])

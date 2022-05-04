@@ -1,58 +1,62 @@
-import React, { useRef, useEffect, useState } from 'react'
+import React, { useRef, useEffect, useState } from 'react';
+import { ObjectTypeDeclaration } from 'typescript';
 
-type PGProps = {
-  cloudName: string
-}
+type Props = {
+  cloudName: string;
+  media: object;
+  video: object;
+  title: string;
+};
 
 declare global {
   interface Window {
-      cloudinary:any;
+    cloudinary: any;
   }
 }
 
-function ProductGallery({ cloudName }: PGProps) {
-  const [cldName, setCldName] = useState<string>(cloudName)
-  const [loaded, setLoaded] = useState(false)
-
-  // const pgElement = useRef<null | HTMLDivElement>(null)
-
-  useEffect(() => {
-    const scriptTag = document.createElement('script')
-    scriptTag.src = 'https://product-gallery.cloudinary.com/all.js'
-    // debugger;
-    scriptTag.addEventListener('load', () => setLoaded(true))
-    document.body.appendChild(scriptTag)
-  }, [])
+const ProductGallery = ({ cloudName, media, video }: Props) => {
+  const [cldName, setCldName] = useState<string>(cloudName);
+  const [mediaAssets, setMedia] = useState<object>(media);
+  const [videoProps, setVideoProps] = useState<object>(video);
+  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    if (!loaded) return
+    const scriptTag = document.createElement('script');
+    scriptTag.src = 'https://product-gallery.cloudinary.com/all.js';
+    // debugger;
+    scriptTag.addEventListener('load', () => setLoaded(true));
+    document.body.appendChild(scriptTag);
+  }, []);
+
+  useEffect(() => {
+    if (!loaded) return;
     // debugger;
 
-    console.log('Component mounted')
+    console.log('Component mounted');
     const productGallery = window.cloudinary.galleryWidget({
       container: '#product-gallery',
       cloudName: cldName,
-      mediaAssets: [
-        { tag: 'electric_car_product_gallery_demo', transformation: { crop: "limit",height:600,width:800 }  },
-        { tag: 'electric_car_product_gallery_demo', mediaType: 'video', transformation: {border: "5px_solid_black"} },
-        { tag: 'electric_car_360_product_gallery_demo', mediaType: 'spin' },
-      ],
-      "navigationButtonProps": {
-        "iconColor": "#bada55",
-        "color":"black",
+      // carouselLocation: "bottom",
+      viewportBreakpoints: [
+        { breakpoint: 600, carouselStyle: "thumbnails", carouselLocation: "bottom" },
+        { breakpoint: 300, carouselStyle: "indicators", carouselLocation: "bottom", navigation: "always" }],
+      imageBreakpoint: 300, // keep to 3 sizes
+      mediaAssets: mediaAssets,
+      videoProps: videoProps,
+      navigationButtonProps: {
+        iconColor: '#bada55',
+        color: 'black',
         shape: 'square',
-  size: 40
-     
-    }
-    //   "carouselLocation": "bottom",
-    })
-    productGallery.render()
-  }, [loaded])
+        size: 40,
+      },
+    });
+    productGallery.render();
+  }, [loaded]);
 
   return (
     <>
-      <div id="product-gallery" className="pg-gallery" ></div>
+      <div id='product-gallery' className='pg-gallery'></div>
     </>
-  )
-}
-export default ProductGallery
+  );
+};
+export default ProductGallery;

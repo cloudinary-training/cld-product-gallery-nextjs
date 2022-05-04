@@ -7,6 +7,11 @@ type PostType = {
   coverImage: string
   author: Author
   excerpt: string
+  cloudinary: {
+    cloudName: string,
+    mediaAssets: object,
+    videoProps: object
+  }
   ogImage: {
     url: string
   }

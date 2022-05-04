@@ -1,7 +1,17 @@
 ---
-title: 'Electric Car'
+title: 'Dune Buggy'
 excerpt: 'Once the body length deconstructed the NQR. Once the 4WD braked the engine! The Nissan developed the heavy duty body. The snowplow deconstructed the 4WD mechanic and the wheel developed the 2x4 motortruck! The van accelerated the durable WorkStar 7400.'
-coverImage: 'https://res.cloudinary.com/demo/image/upload/h_500,w_500,c_limit/Product%20gallery%20demo/Rich%20content/electric_car_1?pgw=1&pgwact=1'
+coverImage: 'https://res.cloudinary.com/cloudinary-training/video/upload/e_grayscale,so_5,eo_5,w_500,h_300,c_fill,g_auto/product-gallery/dune-buggy.jpg'
+cloudinary:
+  {
+    cloudName: 'cloudinary-training',
+    mediaAssets:
+      [
+        { tag: 'training-dune-buggy', mediaType: 'image',transformation: { crop: "fill" } },
+        { publicId: 'product-gallery/dune-buggy', mediaType: 'video' },
+      ],
+    videoProps: { playerType: 'cloudinary', controls: 'all', autoplay: false },
+  }
 ogImage:
   url: https://res.cloudinary.com/demo/image/upload/h_800,w_800,c_limit/Product%20gallery%20demo/Rich%20content/electric_car_1?pgw=1&pgwact=1'
 ---

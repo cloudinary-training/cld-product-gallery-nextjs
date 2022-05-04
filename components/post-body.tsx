@@ -8,30 +8,29 @@ const DynamicProductGallery = dynamic(
 );
 type Props = {
   content: string;
+  media: object;
+  video: object;
+  cloudName: string;
+  title: string;
 };
 
-const PostBody = ({ content }: Props) => {
+const PostBody = ({ cloudName, media,video, content ,title}: Props) => {
+  // debugger;
   return (
-    // <div className="max-w-2xl mx-auto">
-    //   <div
-    //     className={markdownStyles['markdown']}
-    //     dangerouslySetInnerHTML={{ __html: content }}
-    //   />
-    // </div>
     <div className='flex min-h-screen flex-col items-center '>
       <main className='container mx-auto mt-3 px-4 py-10'>
         <div className='grid-container'>
           <section className=''>
-            <DynamicProductGallery cloudName='demo' />
+            <DynamicProductGallery cloudName={cloudName} media={media} video={video} title={title} />
           </section>
           <section className=''>
-            <h1 className='mb-1 text-6xl font-bold'>Electric Car</h1>
+            <h1 className='mb-1 text-6xl font-bold'>{title}</h1>
 
             <div className='mb-4 mt-10'>
-               <div
-        className={markdownStyles['markdown']}
-         dangerouslySetInnerHTML={{ __html: content }}
-       />
+              <div
+                className={markdownStyles['markdown']}
+                dangerouslySetInnerHTML={{ __html: content }}
+              />
             </div>
 
             <ul className='mb-5 flex justify-start'>
