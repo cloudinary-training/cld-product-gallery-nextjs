@@ -8,7 +8,7 @@ cloudinary:
     mediaAssets:
       [
         { tag: 'training-dune-buggy', mediaType: 'image',transformation: { crop: "fill" } },
-        { publicId: 'product-gallery/dune-buggy', mediaType: 'video' },
+        { publicId: 'product-gallery/dune-buggy', mediaType: 'video',transformation: { crop: "fill" } },
       ],
     videoProps: { playerType: 'cloudinary', controls: 'all', autoplay: false },
   }
