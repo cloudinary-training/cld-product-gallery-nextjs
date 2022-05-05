@@ -14,6 +14,7 @@ cloudinary:
           tag: 'electric_car_product_gallery_demo',
           mediaType: 'video',
           transformation: { border: '5px_solid_black' },
+          sourceTypes: ['vp9','hls','webm','mp4']
         },
         { tag: 'electric_car_360_product_gallery_demo', mediaType: 'spin' },
       ],

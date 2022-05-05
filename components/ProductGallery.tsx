@@ -36,7 +36,7 @@ export default function ProductGallery ({ cloudName, media, video }: Props) {
     const productGallery = window.cloudinary.galleryWidget({
       container: '#product-gallery',
       cloudName: cldName,
-      // carouselLocation: "bottom",
+      placeholderImage: true,
       viewportBreakpoints: [
         { breakpoint: 600, carouselStyle: "thumbnails", carouselLocation: "bottom" },
         { breakpoint: 300, carouselStyle: "indicators", carouselLocation: "bottom", navigation: "always" }],

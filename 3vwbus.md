@@ -7,10 +7,10 @@ cloudinary:
     cloudName: 'cloudinary-training',
     mediaAssets:
       [
-        { tag: 'training-vwbus', mediaType: 'image',transformation: { crop: "fill" } },
-        { publicId: 'product-gallery/vwbus', mediaType: 'video',transformation: { crop: "fill"} },
+        { tag: 'training-vwbus', mediaType: 'image',transformation: { crop: "fill", gravity:"auto" } },
+        { publicId: 'product-gallery/vwbus', mediaType: 'video',transformation: { crop: "fill", gravity:"auto"} },
       ],
-    videoProps: { playerType: 'cloudinary', controls: 'all', autoplay: false },
+    videoProps: { playerType: 'cloudinary', controls: 'play', autoplay: false },
   }
 ogImage:
   url: https://res.cloudinary.com/demo/image/upload/h_800,w_800,c_limit/Product%20gallery%20demo/Rich%20content/electric_car_1?pgw=1&pgwact=1'

@@ -10,18 +10,18 @@ cloudinary:
         {
           tag: 'training-dune-buggy',
           mediaType: 'image',
-          transformation: { crop: 'fill' },
+          transformation: { crop: 'fill', gravity: 'auto' },
         },
         {
           publicId: 'product-gallery/dune-buggy',
           mediaType: 'video',
-          transformation: [{ crop: 'fill' }],
+          transformation: [{ crop: 'fill', gravity: 'auto' }],
         },
       ],
     videoProps:
       {
         playerType: 'cloudinary',
-        controls: 'all',
+        controls: 'play',
         autoplay: false,
         sourceTypes: ['vp9','hls','webm','mp4'],
       },
