@@ -7,10 +7,24 @@ cloudinary:
     cloudName: 'cloudinary-training',
     mediaAssets:
       [
-        { tag: 'training-dune-buggy', mediaType: 'image',transformation: { crop: "fill" } },
-        { publicId: 'product-gallery/dune-buggy', mediaType: 'video',transformation: [{duration: "7"},{ crop: "fill"}] },
+        {
+          tag: 'training-dune-buggy',
+          mediaType: 'image',
+          transformation: { crop: 'fill' },
+        },
+        {
+          publicId: 'product-gallery/dune-buggy',
+          mediaType: 'video',
+          transformation: [{ crop: 'fill' }],
+        },
       ],
-    videoProps: { playerType: 'cloudinary', controls: 'all', autoplay: false },
+    videoProps:
+      {
+        playerType: 'cloudinary',
+        controls: 'all',
+        autoplay: false,
+        sourceTypes: ['vp9','hls','webm','mp4'],
+      },
   }
 ogImage:
   url: https://res.cloudinary.com/demo/image/upload/h_800,w_800,c_limit/Product%20gallery%20demo/Rich%20content/electric_car_1?pgw=1&pgwact=1'

@@ -33,3 +33,9 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 # Notes
 
 `blog-starter-typescript` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
+
+Credits
+
+Video by <a href="https://pixabay.com/users/hirshphilippe-3632036/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=31140">hirshphilippe</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=31140">Pixabay</a>
+
+Video by Joseph  Redfield: https://www.pexels.com/video/two-vehicles-traveling-in-the-desert-2099568/
