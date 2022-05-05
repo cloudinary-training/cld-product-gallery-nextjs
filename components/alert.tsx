@@ -29,7 +29,7 @@ const Alert = ({ preview }: Props) => {
             </>
           ) : (
             <>
-              The source code for this blog is{' '}
+              The source code for this product page is{' '}
               <a
                 href={`https://github.com/cloudinary-training/cld-product-gallery-nextjs`}
                 className="underline hover:text-blue-600 duration-200 transition-colors"

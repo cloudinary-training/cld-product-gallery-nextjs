@@ -14,7 +14,7 @@ declare global {
   }
 }
 
-const ProductGallery = ({ cloudName, media, video }: Props) => {
+export default function ProductGallery ({ cloudName, media, video }: Props) {
   const [cldName, setCldName] = useState<string>(cloudName);
   const [mediaAssets, setMedia] = useState<object>(media);
   const [videoProps, setVideoProps] = useState<object>(video);
@@ -59,4 +59,3 @@ const ProductGallery = ({ cloudName, media, video }: Props) => {
     </>
   );
 };
-export default ProductGallery;
