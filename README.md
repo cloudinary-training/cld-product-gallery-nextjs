@@ -40,7 +40,17 @@ Video by <a href="https://pixabay.com/users/hirshphilippe-3632036/?utm_source=li
 
 Video by Joseph  Redfield: https://www.pexels.com/video/two-vehicles-traveling-in-the-desert-2099568/
 
+Video by <a href="https://pixabay.com/users/wowfactorfilms-13980848/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=28039">wowfactorfilms</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=28039">Pixabay</a>
+
+Photo by Евгений Качин: https://www.pexels.com/photo/a-green-beetle-car-on-the-road-9940949/
+Photo by Ahmad Ramadan: https://www.pexels.com/photo/red-volkswagen-beetle-parked-at-road-side-near-pedestrian-lane-131811/
+Photo by lilartsy: https://www.pexels.com/photo/yellow-volkswagen-beetle-coupe-parked-on-gray-concrete-surface-1461804/
+Photo by murat soyluoglu: https://www.pexels.com/photo/photography-of-orange-volkswagen-beetle-1209774/
+
+
 https://cloudinary.com/blog/introducing_the_cloudinary_product_gallery_enabling_a_dynamic_buyer_experience
 
 rich media: https://cloudinary.com/blog/why_dynamic_media_platform_is_must_have_for_ecommerce
+
+
 
