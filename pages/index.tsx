@@ -20,7 +20,7 @@ const Index = ({ allPosts }: Props) => {
     <>
       <Layout>
         <Head>
-          <title>Car Company</title>
+          <title>Cars Online</title>
         </Head>
         <Container>
           <Intro />
