@@ -27,24 +27,4 @@ ogImage:
 
 Once the body length deconstructed the NQR. Once the 4WD braked the engine! The Nissan developed the heavy duty body. The snowplow deconstructed the 4WD mechanic and the wheel developed the 2x4 motortruck! The van accelerated the durable WorkStar 7400. 
 
-```JavaScript
-cloudinary:
-  {
-    cloudName: 'cloudinary-training',
-    mediaAssets:
-      [
-        {
-          publicId: 'product-gallery/vwbus',
-          mediaType: 'video',
-          transformation: { crop: 'fill', gravity: 'auto' },
-        },
-        {
-          tag: 'training-vwbus',
-          mediaType: 'image',
-          transformation: { crop: 'fill', gravity:'auto' },
-        },
-      ],
-    displayProps: {},
-    videoProps: {},
-  }
-```
+[![PGW options](https://res.cloudinary.com/cloudinary-training/image/upload/product-gallery/vwbus-options.png)](https://github.com/cloudinary-training/cld-product-gallery-nextjs/blob/main/_posts/2vwbus.md)

@@ -39,14 +39,21 @@
 
 @media screen and (min-width: 728px) {
   .grid-container {
-    /* display: grid;
-  grid-template-columns: 1fr .5fr;
-  grid-gap: 20px; */
     display: grid;
-
     grid-template-columns: repeat(2, 1fr);
-
-    /* grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); */
     grid-gap: 1rem;
   }
 }
+
+/* @media screen and (min-width: 728px) { */
+  pre code {
+    font-size: 0.8rem;
+    line-height: 1px;
+    white-space: pre;
+  }
+/* } */
+
+/* pre code {
+  font-size: 0.6rem;
+  line-height: 0.6rem;
+} */
