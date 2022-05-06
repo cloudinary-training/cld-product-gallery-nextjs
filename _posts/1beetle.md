@@ -22,4 +22,4 @@ ogImage:
 
 Once the body length deconstructed the NQR. Once the 4WD braked the engine! The Nissan developed the heavy duty body. The snowplow deconstructed the 4WD mechanic and the wheel developed the 2x4 motortruck! The van accelerated the durable WorkStar 7400. 
 
-[![PGW options](https://res.cloudinary.com/cloudinary-training/image/upload/product-gallery/beetle-options.png)](https://github.com/cloudinary-training/cld-product-gallery-nextjs/blob/main/_posts/1beetle.md)
+[![PGW options](https://res.cloudinary.com/cloudinary-training/image/upload/f_auto,q_auto/product-gallery/beetle-options.png)](https://github.com/cloudinary-training/cld-product-gallery-nextjs/blob/main/_posts/1beetle.md)

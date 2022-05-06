@@ -44,16 +44,3 @@
     grid-gap: 1rem;
   }
 }
-
-/* @media screen and (min-width: 728px) { */
-  pre code {
-    font-size: 0.8rem;
-    line-height: 1px;
-    white-space: pre;
-  }
-/* } */
-
-/* pre code {
-  font-size: 0.6rem;
-  line-height: 0.6rem;
-} */
