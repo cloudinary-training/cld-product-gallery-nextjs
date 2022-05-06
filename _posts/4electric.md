@@ -4,6 +4,7 @@ excerpt: 'Once the body length deconstructed the NQR. Once the 4WD braked the en
 coverImage: 'https://res.cloudinary.com/demo/image/upload/h_300,w_500,c_fill,g_auto/Product%20gallery%20demo/Rich%20content/electric_car_1?pgw=1&pgwact=1'
 cloudinary:
   {
+    cloudName: 'demo',
     mediaAssets:
       [
         {
@@ -14,11 +15,11 @@ cloudinary:
           tag: 'electric_car_product_gallery_demo',
           mediaType: 'video',
           transformation: { border: '5px_solid_black' },
-          sourceTypes: ['vp9','hls','webm','mp4']
+          sourceTypes: ['vp9', 'hls', 'webm', 'mp4'],
         },
         { tag: 'electric_car_360_product_gallery_demo', mediaType: 'spin' },
       ],
-
+    displayProps: {},
     videoProps: {},
   }
 ogImage:

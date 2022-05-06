@@ -10,6 +10,7 @@ type PostType = {
   cloudinary: {
     cloudName: string,
     mediaAssets: object,
+    displayProps: object,
     videoProps: object
   }
   ogImage: {

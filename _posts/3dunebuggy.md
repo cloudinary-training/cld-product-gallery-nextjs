@@ -18,12 +18,13 @@ cloudinary:
           transformation: [{ crop: 'fill', gravity: 'auto' }],
         },
       ],
+    displayProps: {},
     videoProps:
       {
         playerType: 'cloudinary',
         controls: 'play',
         autoplay: false,
-        sourceTypes: ['vp9','hls','webm','mp4'],
+        sourceTypes: ['vp9', 'hls', 'webm', 'mp4'],
       },
   }
 ogImage:

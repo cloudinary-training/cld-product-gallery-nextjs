@@ -12,16 +12,16 @@ type Props = {
   video: object;
   cloudName: string;
   title: string;
+  display: object;
 };
 
-const PostBody = ({ cloudName, media,video, content ,title}: Props) => {
-  // debugger;
+const PostBody = ({ cloudName, media,video, display, content ,title}: Props) => {
   return (
     <div className='flex min-h-screen flex-col items-center '>
       <main className='container mx-auto mt-3 px-4 py-10'>
         <div className='grid-container'>
           <section className=''>
-            <DynamicProductGallery cloudName={cloudName} media={media} video={video} title={title} />
+            <DynamicProductGallery cloudName={cloudName} media={media} video={video} display={display} title={title} />
           </section>
           <section className=''>
             <h1 className='mb-1 text-6xl font-bold'>{title}</h1>

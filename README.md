@@ -34,6 +34,7 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 
 `blog-starter-typescript` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
 
+
 Credits
 
 Video by <a href="https://pixabay.com/users/hirshphilippe-3632036/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=31140">hirshphilippe</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=31140">Pixabay</a>
@@ -47,6 +48,10 @@ Photo by Ahmad Ramadan: https://www.pexels.com/photo/red-volkswagen-beetle-parke
 Photo by lilartsy: https://www.pexels.com/photo/yellow-volkswagen-beetle-coupe-parked-on-gray-concrete-surface-1461804/
 Photo by murat soyluoglu: https://www.pexels.com/photo/photography-of-orange-volkswagen-beetle-1209774/
 
+
+## Resources
+
+https://demo.cloudinary.com/product-gallery/
 
 https://cloudinary.com/blog/introducing_the_cloudinary_product_gallery_enabling_a_dynamic_buyer_experience
 

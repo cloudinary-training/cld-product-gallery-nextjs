@@ -10,7 +10,7 @@ cloudinary:
         {
           publicId: 'product-gallery/vwbus',
           mediaType: 'video',
-          transformation: { crop: 'fill' , gravity: 'auto'},
+          transformation: { crop: 'fill', gravity: 'auto' },
         },
         {
           tag: 'training-vwbus',
@@ -18,6 +18,7 @@ cloudinary:
           transformation: { crop: 'fill', gravity:'auto' },
         },
       ],
+    displayProps: {},
     videoProps: {},
   }
 ogImage:
