@@ -27,14 +27,14 @@ const Meta = () => {
         href="/favicon/safari-pinned-tab.svg"
         color="#000000"
       />
-      <link rel="shortcut icon" href="/favicon/favicon.ico" />
+      <link rel="icon" type="image/png" href="/favicon/favicon-32x32.png" />
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="msapplication-config" content="/favicon/browserconfig.xml" />
       <meta name="theme-color" content="#000" />
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
+        content={`A statically generated blog example using Next.js and Cloudinary.`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>
