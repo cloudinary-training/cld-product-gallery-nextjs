@@ -11,7 +11,8 @@ type PostType = {
     cloudName: string,
     mediaAssets: object,
     displayProps: object,
-    videoProps: object
+    videoProps: object,
+    videoPlayerSource: object
   }
   ogImage: {
     url: string

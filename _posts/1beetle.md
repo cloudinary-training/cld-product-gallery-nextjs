@@ -14,9 +14,9 @@ cloudinary:
             { crop: 'fill', gravity: 'auto', height: 600, width: 800 },
         },
       ],
-
-displayProps: { mode: 'expanded', columns: 2, spacing: 15 },
+    displayProps: { mode: 'expanded', columns: 2, spacing: 15 },
     videoProps: {},
+    videoPlayerSource: {},
   }
 ogImage:
   url: https://res.cloudinary.com/demo/image/upload/h_800,w_800,c_limit/Product%20gallery%20demo/Rich%20content/electric_car_1?pgw=1&pgwact=1'

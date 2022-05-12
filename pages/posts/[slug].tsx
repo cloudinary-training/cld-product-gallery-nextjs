@@ -38,7 +38,7 @@ const Post = ({ post, morePosts, preview }: Props) => {
                 </title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
-              <PostBody title={post.title} cloudName={post.cloudinary.cloudName} media={post.cloudinary.mediaAssets} display={post.cloudinary.displayProps} video={post.cloudinary.videoProps} content={post.content} />
+              <PostBody title={post.title} videoPlayerSource={post.cloudinary.videoPlayerSource} cloudName={post.cloudinary.cloudName} media={post.cloudinary.mediaAssets} display={post.cloudinary.displayProps} video={post.cloudinary.videoProps} content={post.content} />
             </article>
           </>
         )}

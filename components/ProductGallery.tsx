@@ -7,6 +7,7 @@ type Props = {
   video: object;
   title: string;
   display: object;
+  videoPlayerSource: object;
 };
 
 declare global {
@@ -15,7 +16,7 @@ declare global {
   }
 }
 
-export default function ProductGallery({ cloudName, media, display, video }: Props) {
+export default function ProductGallery({ cloudName, media, display, video, videoPlayerSource }: Props) {
   const [cldName, setCldName] = useState<string>(cloudName);
   const [mediaAssets, setMedia] = useState<object>(media);
   const [videoProps, setVideoProps] = useState<object>(video);
@@ -37,6 +38,7 @@ export default function ProductGallery({ cloudName, media, display, video }: Pro
       cloudName: cldName,
       displayProps: displayProps,
       mediaAssets: mediaAssets,
+      videoPlayerSource:videoPlayerSource,
       videoProps: videoProps,
       navigationButtonProps: {
         iconColor: '#bada55',

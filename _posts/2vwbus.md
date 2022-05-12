@@ -21,6 +21,7 @@ cloudinary:
     transformation: { crop: 'fill' },
     displayProps: {},
     videoProps: {},
+    videoPlayerSource: {},
   }
 ogImage:
   url: https://res.cloudinary.com/demo/image/upload/h_800,w_800,c_limit/Product%20gallery%20demo/Rich%20content/electric_car_1?pgw=1&pgwact=1'

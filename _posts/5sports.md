@@ -1,23 +1,27 @@
 ---
-title: 'Electric Car'
+title: 'Sports Car'
 excerpt: 'Once the body length deconstructed the NQR. Once the 4WD braked the engine! The Nissan developed the heavy duty body. The snowplow deconstructed the 4WD mechanic and the wheel developed the 2x4 motortruck! The van accelerated the durable WorkStar 7400.'
-coverImage: 'https://res.cloudinary.com/demo/image/upload/h_300,w_500,c_fill,g_auto/Product%20gallery%20demo/Rich%20content/electric_car_1?pgw=1&pgwact=1'
+coverImage: 'https://res.cloudinary.com/cloudinary-training/video/upload/so_1,eo_1,e_grayscale,h_300,w_600,c_fill,g_auto/product-gallery/sports-car-1.jpg'
 cloudinary:
   {
-    cloudName: 'demo',
+    cloudName: 'cloudinary-training',
     mediaAssets:
       [
         {
-          tag: 'electric_car_product_gallery_demo',
-          transformation: { crop: 'limit', height: 600, width: 800 },
-        },
-        {
-          tag: 'electric_car_product_gallery_demo',
+          publicId: 'product-gallery/sports-car-1',
           mediaType: 'video',
-          transformation: [{ crop: 'fill', gravity: 'auto' }],
-            sourceTypes: ['hls', 'webm', 'mp4'],
+          videoPlayerSource:
+            {
+              sourceTypes: ['dash/vp9', 'hls/h265', 'hls/h264', 'mp4'],
+              sourceTransformation:
+                {
+                  'dash/vp9': [{ streaming_profile: 'hd_vp9' }],
+                  'hls/h265': [{ streaming_profile: 'hd_h265' }],
+                  'hls/h264': [{ streaming_profile: 'hd' }],
+                  'mp4': [{ raw_transformation: 'q_auto' }],
+                },
+            },
         },
-        { tag: 'electric_car_360_product_gallery_demo', mediaType: 'spin' },
       ],
     transformation: { crop: 'fill' },
     displayProps: {},
