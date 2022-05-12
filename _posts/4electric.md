@@ -15,17 +15,13 @@ cloudinary:
           tag: 'electric_car_product_gallery_demo',
           mediaType: 'video',
           transformation: [{ crop: 'fill', gravity: 'auto' }],
+            sourceTypes: ['hls', 'webm', 'mp4'],
         },
         { tag: 'electric_car_360_product_gallery_demo', mediaType: 'spin' },
       ],
+    transformation: { crop: 'fill' },
     displayProps: {},
-    videoProps:
-      {
-        playerType: 'cloudinary',
-        controls: 'play',
-        autoplay: false,
-        sourceTypes: ['hls', 'webm', 'mp4'],
-      },
+    videoProps: { playerType: 'cloudinary', controls: 'play', autoplay: false },
   }
 ogImage:
   url: https://res.cloudinary.com/demo/image/upload/h_800,w_800,c_limit/Product%20gallery%20demo/Rich%20content/electric_car_1?pgw=1&pgwact=1'
