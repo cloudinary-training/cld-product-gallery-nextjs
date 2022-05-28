@@ -21,10 +21,10 @@ const PostBody = ({ cloudName, media,video, display, content ,title, videoPlayer
     <div className='flex min-h-screen flex-col items-center '>
       <main className='container mx-auto mt-3 px-4 py-10'>
         <div className='grid-container'>
-          <section className=''>
+          <section>
             <DynamicProductGallery cloudName={cloudName} videoPlayerSource={videoPlayerSource} media={media} video={video} display={display} title={title} />
           </section>
-          <section className=''>
+          <section>
             <h1 className='mb-1 text-6xl font-bold'>{title}</h1>
 
             <div className='mb-4 mt-10'>

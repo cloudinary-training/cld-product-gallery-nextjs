@@ -20,8 +20,10 @@ cloudinary:
   }
 ogImage:
   url: https://res.cloudinary.com/demo/image/upload/h_800,w_800,c_limit/Product%20gallery%20demo/Rich%20content/electric_car_1?pgw=1&pgwact=1'
+--- 
+## Parameters 
 ---
-
-Once the body length deconstructed the NQR. Once the 4WD braked the engine! The Nissan developed the heavy duty body. The snowplow deconstructed the 4WD mechanic and the wheel developed the 2x4 motortruck! The van accelerated the durable WorkStar 7400.
+ 1.&#9;image only using tag  
+ 2.&#9;expanded display
 
 [![PGW options](https://res.cloudinary.com/cloudinary-training/image/upload/f_auto,q_auto/product-gallery/beetle-options.png)](https://github.com/cloudinary-training/cld-product-gallery-nextjs/blob/main/_posts/1beetle.md)
