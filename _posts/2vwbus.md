@@ -28,11 +28,10 @@ cloudinary:
 ogImage:
   url: https://res.cloudinary.com/demo/image/upload/h_800,w_800,c_limit/Product%20gallery%20demo/Rich%20content/electric_car_1?pgw=1&pgwact=1'
 ---
-
-## Parameters 
 ---
+### Parameters 
  1.&#9;image using tag  
  2.&#9;preload video element
 
 
-[![PGW options](https://res.cloudinary.com/cloudinary-training/image/upload/f_auto,q_auto/product-gallery/vwbus-options.png)](https://github.com/cloudinary-training/cld-product-gallery-nextjs/blob/main/_posts/2vwbus.md)
+[![PGW options](https://res.cloudinary.com/cloudinary-training/image/upload/h_350,f_auto,q_auto/product-gallery/vwbus-options.png)](https://github.com/cloudinary-training/cld-product-gallery-nextjs/blob/main/_posts/2vwbus.md)
