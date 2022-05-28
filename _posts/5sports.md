@@ -34,7 +34,7 @@ ogImage:
 ---
 ### Parameters 
  1.&#9;image using tag  
- 2.&#9;video player with **play** control
+ 2.&#9;video player with **play** control  
  3.&#9;adaptive bitrate streaming
 
 [![Electric options](https://res.cloudinary.com/cloudinary-training/image/upload/h_350,f_auto,q_auto/product-gallery/electric-options.png)](https://github.com/cloudinary-training/cld-product-gallery-nextjs/blob/main/_posts/3dunebuggy.md)
