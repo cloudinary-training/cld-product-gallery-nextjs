@@ -33,10 +33,6 @@
   margin: auto;
 }
 
-.product-info {
-  display: flex;
-}
-
 @media screen and (min-width: 728px) {
   .grid-container {
     display: grid;
